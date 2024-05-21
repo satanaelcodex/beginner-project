@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open sans, sans-serif;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(24, 24, 30);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 20%;
+}
+
+.header-text,
+.support-text {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.header-text {
+  font-weight: 700;
+  font-size: 15px;
+  padding-left: 10px;
+  border-left: 1px solid rgb(200, 200, 200);
+}
+
+.support-text {
+  color: rgb(200, 200, 200);
+  font-weight: 700;
+}
+
+.icons {
+  width: 30px;
+}
+
+.epic-games {
+  width: 20px;
+}
+
+.globe-icon {
+  width: 22px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.globe-icon,
+.profile-icon,
+.download-btn {
+  margin-right: 5px;
+}
+
+.download-btn {
+  margin-right: 12px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 8px;
+  background-color: rgb(38, 187, 255);
+  font-size: 10px;
+}

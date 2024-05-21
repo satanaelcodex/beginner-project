@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(18, 18, 18);
+  color: rgb(255, 255, 255);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  max-width: 1600px;
+}
+
+.search-bar {
+  background-color: rgb(40, 40, 40);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 10px;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.nav-link {
+  margin-right: 780px;
+  display: flex;
+  height: 40px;
+  width: 200px;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.nav-link li {
+  font-size: 11px;
+  margin-right: 18px;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.hot-deals {
+  display: flex;
+
+  justify-content: space-around;
+  margin-left: 140px;
+  margin-right: 120px;
+  width: 70%;
+}
+
+.container-deals {
+  position: relative;
+}
+
+.games-hot-deals {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 180px;
+  width: 280px;
+}
+
+.price-deals {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: rgb(15, 15, 15);
+}
+
+.mega-sale {
+  top: 0;
+  left: 10px;
+}
+
+.red-dead {
+  object-fit: cover;
+  object-position: left;
+}
+
+.main-event-container {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 140px;
+}
+
+.main-event {
+  position: relative;
+}
+
+.main-event-photo {
+  width: 800px;
+  border-radius: 10px;
+}
+
+.main-event-status {
+  position: absolute;
+  bottom: 220px;
+  left: 40px;
+  font-size: 12px;
+}
+
+.main-event-description {
+  position: absolute;
+  bottom: 140px;
+  left: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  width: 220px;
+}
+
+.learn-more {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px 18px;
+  bottom: 50px;
+  left: 40px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.main-price {
+  font-size: 12px;
+  position: absolute;
+  left: 40px;
+  bottom: 90px;
+}
+
+.sidebar-event {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 180px;
+}
+
+.sidebar-games {
+  display: flex;
+  height: 90px;
+  padding-left: 10px;
+  padding-top: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.sidebar-games:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+.sidebar-photo {
+  height: 70px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.game-name {
+  font-size: 12px;
+  text-align: end;
+  margin: 20px 10px;
+}
